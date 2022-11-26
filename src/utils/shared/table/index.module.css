@@ -1,0 +1,33 @@
+.tableFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    flex-direction: row;
+    min-height: 56px;
+}
+.addBtn {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    gap: 2px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.addIcon {
+    color: #47ad7d;
+ 
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ant-pagination.arFront{
+    display: flex !important;
+    flex-direction: row-reverse !important;
+  }
+
+  .arFont ul {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+  }
